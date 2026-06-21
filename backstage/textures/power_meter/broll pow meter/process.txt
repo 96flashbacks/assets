@@ -1,0 +1,4 @@
+1: Export the .svg file in 40x50 (make sure only 1 sphere is visible at once or there will be some weird aliasing).
+2: Make all the slightly transparent pixels opaque (I've done it with Photoshop going Layer > Layer Mask > From Transparency then Image > Adjustments > Threshold…).
+3: Paste the image into the specific .pdn file in the "manual outline adjustment" folder ontop of the meter already there.
+4: If the meter has bits missing (the 7 to 1 versions) copy the missing bits using an export of the empty meter with the number overlayed (I've included "to get the empty bits.pdn" to select the white bits more easily).
