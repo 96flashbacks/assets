@@ -1,1 +1,0 @@
-28 Posterize for all color channels
