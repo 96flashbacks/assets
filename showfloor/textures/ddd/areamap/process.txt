@@ -1,0 +1,5 @@
+1. Make two renders with the specific area's blend ("area_X_areamap.blend"), one with the water and one without the water.
+2. Using Photoshop, downscale both images to 64x64 with bilinear resampling.
+3. Get rid of transparent pixels (I've done it with Photoshop going Layer > Layer Mask > From Transparency then Image > Adjustments > Threshold… (Threshold Level at 1).
+4. Overlay the render with the water above the one without, and set the opacity of the render with water to 50%.
+5. Include the "transparency" layer above both renders.
